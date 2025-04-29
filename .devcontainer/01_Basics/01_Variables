@@ -1,0 +1,33 @@
+const accountId = 12345
+let accountEmail="abc@gmail.com"
+var accountPassword="abc@123"
+accountCity="Mumbai"
+
+console.table([accountId,accountEmail,accountPassword,accountCity])
+
+// accountId = 2 // Not allowed
+accountEmail = "XYZ@gmail.com"
+accountPassword = "Xyz@123"
+accountCity = "Banglore"
+
+console.log("Account Password = ",accountId);
+console.table([accountId,accountEmail,accountPassword,accountCity])
+
+
+/*
+Keyword
+
+cosnt
+In JavaScript, the const keyword is used to declare a constant. A variable declared with const must be initialized at the time of declaration, and its value cannot be reassigned. Attempting to reassign a value to a const variable will throw an error.
+
+var
+The var keyword in JavaScript has several issues related to scope that make it less ideal compared to let and const in modern JavaScript.
+the problem of scope 
+
+let
+In JavaScript, the let keyword is used to declare variables with block scope. Unlike var, which has function scope, variables declared with let are limited to the block, statement, or expression where they are defined. This prevents issues related to scope leakage.
+
+JS also allowes to declare variable without any let var const declaration 
+In JavaScript, you can declare a variable without assigning it a value. When you do so, the variable is automatically initialized with the value undefined.
+
+*/
